@@ -1,0 +1,40 @@
+Dart Hackathon
+
+1. Palindrome Checker Task
+Objective: Check whether a given string is a palindrome, ignoring spaces, punctuation, and being case-insensitive. Extend the function to check numeric palindromes.
+
+Explanation: A palindrome reads the same backward as forward. We will preprocess the string to remove non-alphanumeric characters and convert it to lowercase. For numeric palindromes, we will convert the number to a string and apply the same logic.
+
+Dart Code: palindrome_checker.dart
+
+Details:
+
+String Cleaning: We use a regular expression to remove all non-alphanumeric characters.
+Case Insensitivity: The string is converted to lowercase to ensure case-insensitivity.
+Numeric Input: The number is converted to a string before checking.
+
+2. Sorting Algorithm Implementation Task
+Objective: Implement and compare two sorting algorithms: Quick Sort and Bubble Sort.
+
+Explanation: Quick Sort is an efficient, divide-and-conquer algorithm with an average time complexity of O(n log n). Bubble Sort, on the other hand, has a worst-case time complexity of O(n^2), making it less efficient for large datasets.
+
+Dart Code: sorting_algorithm.dart
+
+Details:
+
+Quick Sort: Uses a pivot to partition the list and sort the sublists recursively.
+Bubble Sort: Compares adjacent elements and swaps them if necessary, repeatedly passing through the list.
+Performance Testing: Measures and compares the execution time of each sorting algorithm.
+
+3. Basic Calculator Function Task
+Objective: Implement a function to perform basic arithmetic operations. Extend the function to handle multi-step operations and error handling.
+
+Explanation: The calculator will handle basic operations (+, -, *, /, %). For multi-step operations, we'll parse and evaluate expressions. Error handling will be implemented for invalid operations and division by zero.
+
+Dart Code: basic_calculator.dart
+
+Details:
+
+Basic Operations: Uses a switch statement to perform the specified arithmetic operation.
+Error Handling: Checks for division by zero and invalid operators.
+Multi-Step Expressions: Implements basic parsing to evaluate simple expressions with operations.
